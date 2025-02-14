@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: pytest with report",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/venv/bin/pytest",  
+        "args": [
+          "--junitxml=report.xml"  
+        ],
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
